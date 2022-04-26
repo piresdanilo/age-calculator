@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Age Calculator</h1>
+    </header>
+    <section>
+        <div>
+            <p>Year of birth:
+                <input type="number" name="YearOfBirth" id="YearOfBirth" min='0'>
+            </p>
+            <p>
+                <input type="radio" name="RadialToSelectGender" id="masc" checked>
+                <label for="masc">Male</label>
+                <input type="radio" name="RadialToSelectGender" id="fem">
+                <label for="fem">Female</label>
+                <input type="radio" name="RadialToSelectGender" id="neutro">
+                <label for="neutro">I don't want to declare it</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="Result">
+            Fill in the items above and see the results!
+        </div>
+    </section>
+    <footer>
+        <p>&copy;Danilo Pires Lucio</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
